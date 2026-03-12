@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Space_Invaders extends JPanel implements KeyListener {
+public class Space_Invaders extends JPanel implements KeyListener { // sala sei un piccione
 
     //NAVICELLA
     private int xN, yN;
@@ -246,4 +246,5 @@ public class Space_Invaders extends JPanel implements KeyListener {
             }
         }).start();
     }
+
 }
